@@ -5,7 +5,8 @@
 # For: Metro State CCDC 2023 (originally)				       #
 # Purpose: To investigate Linux hosts for potential weaknesses & IoC's, giving #
 # users a better understanding of the host landscape, and potential avenues of #
-# of priv-esc.								       #
+# of priv-esc. Many checks are taken or based on those present in	       #
+# LinEnum.sh enumeration script for CTF-style enumeration scripts.	       #
 ################################################################################
 
 # This section is used to define colors used to improve readability of output
@@ -378,8 +379,8 @@ while getopts 'ufckrsl :' OPTION; do
 			echo -e "-k\t Searches the filesystem for access (SSH) keys"
 			echo -e "-s\t Enumerates cronjobs & running services"
 			echo -e "-l\t Searches logfiles for suspicious activity"
-      echo -e -n "${GREEN}"
-      echo -e "If you are not sure, just ask detective-pikachu to '-surf' "
+      			echo -e -n "${GREEN}"
+     	 		echo -e "If you are not sure, just ask detective-pikachu to '-surf' "
 			echo -e "${RESET}"
 			exit 1
 			;;
