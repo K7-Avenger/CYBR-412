@@ -281,7 +281,7 @@ while getopts 'ufckrsl :' OPTION; do
 			echo -e "-c\t Identifies system configs that may be unsafe"
 			echo -e "-s\t Enumerates cronjobs & running services"
       			echo -e -n "${GREEN}"
-     	 		echo -e "If you are not sure, just ask detective-pikachu to '-surf'."
+     	 		echo -e "If you are not sure, just ask $(basename $0) to '-surf'."
 			echo -e "${RESET}"
 			exit 1
 			;;
