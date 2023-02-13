@@ -2,10 +2,10 @@
 
 ################################################################################
 # Written by: K7-Avenger				 		       #
-# For: Metro State CCDC 2023						       #
+# For: Metro State CCDC 2023 (originally)				       #
 # Purpose: To investigate Linux hosts for potential weaknesses & IoC's, giving #
-# users a better understanding of the host landscape, and prioritized list of  #
-# manual enumeration items.						       #
+# users a better understanding of the host landscape, and potential avenues of #
+# of priv-esc.								       #
 ################################################################################
 
 # This section is used to define colors used to improve readability of output
