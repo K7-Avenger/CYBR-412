@@ -6,7 +6,7 @@
 # Purpose: To investigate Linux hosts for potential weaknesses & IoC's, giving #
 # users a better understanding of the host landscape, and potential avenues of #
 # of priv-esc. Many checks are taken or based on those present in	       #
-# LinEnum.sh enumeration script for CTF-style enumeration scripts.	       #
+# LinEnum.sh enumeration script for CTF-style hosts.			       #
 ################################################################################
 
 # This section is used to define colors used to improve readability of output
